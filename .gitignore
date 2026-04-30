@@ -1,0 +1,27 @@
+# 제외 폴더
+etc/
+
+# 이 워크스페이스 전용 산출물 (새 프로젝트에서 불필요)
+docs/requirements/
+docs/verification/
+docs/decisions/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+
+# Node
+node_modules/
+.pnpm-store/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
